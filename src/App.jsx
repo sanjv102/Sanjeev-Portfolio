@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <BrowserRouter basename='/Sanjeev-Portfolio'>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path='/' element={<Home />} />
         </Routes>

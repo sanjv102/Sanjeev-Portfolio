@@ -18,7 +18,7 @@ const Contact = () => {
         setEmail("");
         setMessage("");
     }
-
+    
     return (
         <motion.div
             initial={{ opacity: 0, y: 50 }}

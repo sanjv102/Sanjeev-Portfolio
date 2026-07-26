@@ -10,7 +10,7 @@ const App = () => {
       <Navbar />
       <HashRouter basename={import.meta.env.BASE_URL}>
         <Routes>
-          <Route path='/*' element={<Home />} />
+          <Route path='/' element={<Home />} />
         </Routes>
       </HashRouter>
       <Footer />

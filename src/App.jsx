@@ -9,7 +9,7 @@ const App = () => {
     <div>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Home/>} />
+        <Route path='/Sanjeev-Portfolio' element={<Home/>} />
       </Routes>
       <Footer/>
     </div>

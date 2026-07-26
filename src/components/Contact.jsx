@@ -12,7 +12,7 @@ const Contact = () => {
     function handleSubmit(event) {
         event.preventDefault(); 
 
-        alert(`Name: ${name}, Email: ${email}, Message:${message}`);
+        alert(`Hi, ${name}, Thanks for your message. I'll get back to you soon!`);
 
         setName("");
         setEmail("");

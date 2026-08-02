@@ -13,7 +13,7 @@ const Navbar = () => {
             <div>
                 <a href='#' className='text-3xl font-bold text-white'>
                     Sanjeev
-                    <span className='text-blue-800'>Kumar</span>
+                    <span className='text-purple'>Kumar</span>
                     <div className='w-4 h-4 bg-purple rounded-full'></div>
                 </a>
             </div>
